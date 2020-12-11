@@ -1,3 +1,9 @@
+/*
+Keep in mind that this firmware is intended to run in a nodeMCU 1.0, that uses a ESP12E.
+The pinout can be found in: 
+https://1.bp.blogspot.com/-zzEgFcTSOwk/W3BEDNgzl0I/AAAAAAAATpQ/Pe9e7yyBImwoGI1c_3wkDY6uV2HXINMrACLcBGAs/s1600/AMICA-NODEMCU-ESP8266-LUA-CP2102-WIFI-DEVELOPMENT-MODULE-IOT-gujarat.png
+*/
+
 #include "./WifiCredential.h"
 #include "./MqttCredential.h"
 #include "DHT.h"
