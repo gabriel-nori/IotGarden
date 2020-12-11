@@ -76,7 +76,7 @@ void setup() {
 		ESP.wdtFeed();
 	}
 
-	Serial.println("WiFiConnected");
+	Serial.println("WiFiConnected!");
 
 	ArduinoOTA.setHostname(chipName.c_str());
 	ArduinoOTA.setPort(3232);
